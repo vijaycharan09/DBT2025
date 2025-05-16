@@ -1,0 +1,5 @@
+SELECT 
+  CURRENT_ROLE() AS role, 
+  CURRENT_USER() AS user,
+  CURRENT_DATABASE() AS database,
+  CURRENT_SCHEMA() AS schema
